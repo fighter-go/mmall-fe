@@ -1,0 +1,25 @@
+{
+  "name": "mmall-fe",
+  "version": "1.0.0",
+  "description": "mm前端代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fighter-go/mmall-fe.git"
+  },
+  "author": "xue zhenqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fighter-go/mmall-fe/issues"
+  },
+  "homepage": "https://github.com/fighter-go/mmall-fe#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^1.15.0"
+  }
+}
