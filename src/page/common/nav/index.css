@@ -1,0 +1,30 @@
+/*
+* @Author: xue zhenqi
+* @Date:   2017-08-29 15:40:44
+* @Last Modified by:   xue zhenqi
+* @Last Modified time: 2017-08-29 15:59:42
+*/
+.nav{
+    background-color: #eee;
+    height:30px;
+    line-height: 30px;
+}
+/*用户部分*/
+.nav .user-info{
+    float:left;
+}
+.nav .user.login{
+    display:none;
+}
+.nav .user .link{
+    margin-right:5px;
+}
+/*导航链接部分*/
+.nav .nav-list{
+    margin:0;
+    float:right;
+}
+.nav .nav-list .nav-item{
+    float:left;
+    margin:0 10px;
+}

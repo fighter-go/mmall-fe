@@ -1,0 +1,42 @@
+/*
+* @Author: xue zhenqi
+* @Date:   2017-08-29 20:48:46
+* @Last Modified by:   xue zhenqi
+* @Last Modified time: 2017-08-29 22:37:11
+*/
+/*通用头部导航*/
+.header {
+    margin-top:30px;
+}
+.header .w {
+    display:flex;
+    display:-webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .logo{
+    font-size:36px;
+    font-weight:bold;
+    color:#c60023; 
+    margin-right:100px;
+}
+.header .search-con{
+    display:flex;
+    align-items: center;
+}
+.header .search-con .search-input {
+    width:500px;
+    height:30px;
+    margin:0;
+    padding:2px 5px 2px 5px;
+    outline:none;
+    border:solid 2px #c60023;
+}
+.header .search-con .search-btn {
+    width:70px;
+    height:38px;
+    background-color: #c60023;
+    border:none;
+    outline:none;
+    color:#fff;
+}

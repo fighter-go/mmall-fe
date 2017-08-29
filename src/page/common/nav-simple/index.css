@@ -1,0 +1,17 @@
+/*
+* @Author: xue zhenqi
+* @Date:   2017-08-29 14:49:00
+* @Last Modified by:   xue zhenqi
+* @Last Modified time: 2017-08-29 15:16:27
+*/
+.nav-simple{
+    height:60px;
+    line-height:60px;
+    border-bottom:solid 1px #ddd;
+    background-color: #fff;
+}
+.nav-simple .logo{
+    font-size:26px;
+    font-weight: bold;
+    color:#c60023;
+}
