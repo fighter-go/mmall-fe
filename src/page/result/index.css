@@ -1,0 +1,29 @@
+/*
+* @Author: xue zhenqi
+* @Date:   2017-08-30 14:21:46
+* @Last Modified by:   xue zhenqi
+* @Last Modified time: 2017-08-30 14:54:28
+*/
+.page-wrap {
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:20px 0;
+    text-align:center;
+    background-color: #fff;
+}
+.page-wrap .result-con {
+    display:none;
+}
+.page-wrap .result-title {
+    color:#555;
+    padding: 10px 0;
+}
+.page-wrap .result-content {
+    margin-top: 10px;
+    padding:10px 0;
+}
+.page-wrap .result-content .link {
+    border:solid 1px;
+    padding:5px;
+    margin:0 10px;
+}

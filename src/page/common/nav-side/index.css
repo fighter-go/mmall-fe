@@ -1,0 +1,28 @@
+/*
+* @Author: xue zhenqi
+* @Date:   2017-08-30 11:59:54
+* @Last Modified by:   xue zhenqi
+* @Last Modified time: 2017-08-30 13:41:44
+*/
+/*侧边导航样式*/
+.nav-side {
+    /*margin:0;*/
+    float:left;
+    width:130px;
+    min-height: 100px;
+}
+.nav-side .nav-item{
+    font-size:13px;
+    line-height: 30px;
+}
+.nav-side .nav-item .link{
+    color:#888;
+}
+.nav-side .nav-item.active .link{
+    color:#c60023;
+}
+/*右边内容区样式*/
+.content.with-nav{
+    float:left;
+    width:950px;
+}
