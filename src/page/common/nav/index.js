@@ -2,7 +2,7 @@
 * @Author: xue zhenqi
 * @Date:   2017-08-29 15:40:54
 * @Last Modified by:   xue zhenqi
-* @Last Modified time: 2017-08-29 17:40:53
+* @Last Modified time: 2017-09-02 00:01:37
 */
 require('./index.css');
 var _mm = require('util/mm.js');
@@ -26,7 +26,7 @@ var nav = {
             window.location.href = './user-register.html';
         });
         //点击退出事件
-        $('js-logout').click(function(){
+        $('.js-logout').click(function(){
             _user.logout(function(res){
                 window.location.reload();
             },function(errMsg){
@@ -37,7 +37,7 @@ var nav = {
     // 加载用户信息
     loadUserInfo: function(){
         _user.checkLogin(function(res){
-            $('.user.not_login').hide().siblings('.user.login').show().find('.username').text(res.username);
+            $('.user.not-login').hide().siblings('.user.login').show().find('.username').text(res.username);
         },function(){
             //do nothing
         });

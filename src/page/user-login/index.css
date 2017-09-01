@@ -1,0 +1,73 @@
+/*
+* @Author: xue zhenqi
+* @Date:   2017-08-30 21:42:07
+* @Last Modified by:   xue zhenqi
+* @Last Modified time: 2017-08-31 14:15:04
+*/
+.page-wrap {
+    background-color: #e72955;
+}
+.page-wrap .user-con {
+    margin:25px auto;
+    width:500px;
+    background-color:#fff;
+    padding: 5px 0 10px 0;
+}
+.page-wrap .user-con .user-title {
+    font-size:18px;
+    line-height: 50px;
+    border-bottom:solid 1px #ddd;
+    text-align: center;
+}
+.page-wrap .user-con .user-box {
+    width:450px;
+    margin:15px auto;
+}
+.page-wrap .user-con .user-box .error-item {
+    line-height: 30px;
+    border:solid 1px red;
+    background-color: #fde9e9;
+    padding:0 20px;
+    color:red;
+    display:none;
+}
+.page-wrap .user-con .user-box .error-item .err-msg {
+    display:inline-block;
+}
+
+.page-wrap .user-con .user-box .user-item {
+    margin:8px 0 14px 0;
+}
+.page-wrap .user-con .user-box .user-item .user-label {
+    display:inline-block;
+    float:left;
+    height:40px;
+    width:40px;
+    font-size:20px;
+    line-height: 40px;
+    color:#ccc;
+    text-align: center;
+    border:solid 1px #ddd;
+    background-color: #eee;
+}
+.page-wrap .user-con .user-box .user-item .user-content {
+    width:392px;
+    height:40px;
+    border:solid 1px #ddd;
+    border-left:0px;
+    padding-left: 15px;
+    outline:none;
+}
+.page-wrap .user-con .user-box .btn {
+    box-sizing: border-box;
+    width:450px;
+    text-align: center;
+}
+.page-wrap .user-con .user-box .link-item {
+    font-size:12px;
+    text-align: right;
+    margin-top:10px;
+}
+.page-wrap .user-con .user-box .link-item .link {
+    margin-left:15px;
+}
