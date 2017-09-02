@@ -2,7 +2,7 @@
 * @Author: xue zhenqi
 * @Date:   2017-08-30 11:57:32
 * @Last Modified by:   xue zhenqi
-* @Last Modified time: 2017-08-30 13:40:36
+* @Last Modified time: 2017-09-02 16:21:20
 */
 require('./index.css');
 var _mm = require('util/mm.js');
@@ -14,7 +14,7 @@ var navSide = {
         navList : [
             {name: 'user-center',desc: '个人中心',href: './user-center.html'},
             {name: 'order-list',desc: '我的订单',href: './order-list.html'},
-            {name: 'pass-update',desc: '修改密码',href: './pass-update.html'},
+            {name: 'user-pass-update',desc: '修改密码',href: './user-pass-update.html'},
             {name: 'about',desc: '关于MMall',href: './about.html'}
         ]
     },

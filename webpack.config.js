@@ -2,7 +2,7 @@
 * @Author: xue zhenqi
 * @Date:   2017-08-25 15:12:42
 * @Last Modified by:   xue zhenqi
-* @Last Modified time: 2017-08-31 20:57:43
+* @Last Modified time: 2017-09-02 16:24:38
 */
 var webpack             = require('webpack');
 var ExtractTextPlugin   = require("extract-text-webpack-plugin");
@@ -30,6 +30,9 @@ var config = {
         'user-login' : ['./src/page/user-login/index.js'],
         'user-register' : ['./src/page/user-register/index.js'],
         'user-pass-reset' : ['./src/page/user-pass-reset/index.js'],
+        'user-pass-update' : ['./src/page/user-pass-update/index.js'],
+        'user-center' : ['./src/page/user-center/index.js'],
+        'user-center-update' : ['./src/page/user-center-update/index.js'],
         'result' : ['./src/page/result/index.js']
     },
     output: {
@@ -69,6 +72,9 @@ var config = {
         new HtmlWebpackPlugin(getHtmlConfig('user-login','登陆页')),
         new HtmlWebpackPlugin(getHtmlConfig('user-register','注册页')),
         new HtmlWebpackPlugin(getHtmlConfig('user-pass-reset','找回密码')),
+        new HtmlWebpackPlugin(getHtmlConfig('user-pass-update','修改密码')),
+        new HtmlWebpackPlugin(getHtmlConfig('user-center','个人中心')),
+        new HtmlWebpackPlugin(getHtmlConfig('user-center-update','个人信息修改')),
         new HtmlWebpackPlugin(getHtmlConfig('result','结果提示页'))
     ]
 };

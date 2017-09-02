@@ -2,7 +2,7 @@
 * @Author: xue zhenqi
 * @Date:   2017-08-28 12:28:20
 * @Last Modified by:   xue zhenqi
-* @Last Modified time: 2017-08-29 16:39:39
+* @Last Modified time: 2017-09-02 15:25:26
 */
 var Hogan = require('hogan');
 var conf = {
@@ -10,6 +10,7 @@ var conf = {
 };
 var  _mm = {
     request : function(param){
+        var _this = this;
         $.ajax({
             type        :param.method   || 'get',
             url         :param.url      || '',

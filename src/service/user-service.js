@@ -2,7 +2,7 @@
 * @Author: xue zhenqi
 * @Date:   2017-08-29 17:03:29
 * @Last Modified by:   xue zhenqi
-* @Last Modified time: 2017-09-01 23:38:35
+* @Last Modified time: 2017-09-02 16:32:57
 */
 var _mm = require('util/mm.js');
 
@@ -56,6 +56,35 @@ var _user = {
             method : 'POST',
             success : resolve,
             error : reject
+        });
+    },
+    // 获取用户信息
+    getUserInfo : function(resolve,reject){
+        _mm.request({
+            url : _mm.getServerUrl('/user/get_information.do'),
+            method : 'POST',
+            success : resolve,
+            error : reject
+        });
+    },
+    // 更新个人信息
+    updateUserInfo : function(userInfo, resolve, reject){
+        _mm.request({
+            url     : _mm.getServerUrl('/user/update_information.do'),
+            data    : userInfo,
+            method  : 'POST',
+            success : resolve,
+            error   : reject
+        });
+    },
+    // 登录状态下更新密码
+    updatePassword : function(userInfo, resolve, reject){
+        _mm.request({
+            url     : _mm.getServerUrl('/user/reset_password.do'),
+            data    : userInfo,
+            method  : 'POST',
+            success : resolve,
+            error   : reject
         });
     },
     logout : function(resolve,reject){
